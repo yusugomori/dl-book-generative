@@ -111,7 +111,7 @@ if __name__ == '__main__':
     1. Load data
     '''
     root = os.path.join(os.path.dirname(__file__),
-                        '..', 'data', 'fashion_mnist')
+                        '.', 'data', 'fashion_mnist')
     transform = transforms.Compose([transforms.ToTensor()])
     mnist_train = \
         torchvision.datasets.FashionMNIST(root=root,
