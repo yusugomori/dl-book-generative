@@ -55,7 +55,7 @@ if __name__ == '__main__':
     train_dataloader = DataLoader(mnist_train,
                                   batch_size=100,
                                   shuffle=True)
-    test_dataloader = DataLoader(mnist_train,
+    test_dataloader = DataLoader(mnist_test,
                                  batch_size=1,
                                  shuffle=False)
 
